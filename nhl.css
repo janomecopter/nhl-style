@@ -1,3 +1,4 @@
+/* Remove annoying stuff */
 .template--two-column__content--one,
 .featured-content,
 .follow,
@@ -11,6 +12,9 @@
 .mixed-feed {
     display: none!important;
 }
+
+
+/* This holds the standings and leaderboard section */
 .template__content,
 .template--two-column__content--two {
     width: 100%;
@@ -19,6 +23,7 @@
     justify-content: space-between;
 }
 
+/* make the standings side by side rather than one on top of the other */
 .mini__toggled-table__container {
     display: flex;
     flex-direction: row;
