@@ -2,6 +2,13 @@
 
 I created a few css styles to make nhl.com look a little more appealing to me. All I want to see is the scores, standings and leaderboard so I got rid of everything else.
 
+Here is what it looks like:
+
+![alt text](https://github.com/bizzk3t/nhl-style/raw/master/screenshot.png "nhl style")
+
+
+
+
 If thye change the class names, I'll just rewrite my css.
 
 start by install the Stylish extension on the Chrome Store [here](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en)
