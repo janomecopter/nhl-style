@@ -28,7 +28,7 @@ Instructions
 5. Paste the code into the text area.
 
 6. At the bottom of the page where it says "Applies to" click on the "Specify" button and choose from the list "URLs on this domain".
-  * note: if there is a problem on with styling on the rest of the site set it to "URL" instead of "URLs on this domain".
+  * note: if there is a problem with styling on the rest of the site, set it to "URL" instead of "URLs on this domain".
 
 7. Then type in input box "www.nhl.com" without the quotes and click "add"
 
