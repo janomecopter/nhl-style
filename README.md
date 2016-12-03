@@ -39,3 +39,6 @@ The page should look like this:
 ![example stylish](https://github.com/bizzk3t/nhl-style/raw/master/example.png "example stylish")
 
 Good luck! :)
+
+If you have any feedback send me an email and include any necessary images: bizzk3t@gmail.com.
+
