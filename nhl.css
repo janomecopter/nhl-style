@@ -1,0 +1,38 @@
+.template--two-column__content--one,
+.featured-content,
+.follow,
+.ad,
+.site-footer,
+.ad-centered,
+.ad-responsive-slot,
+.ad--250-empty,
+.ad-right-rail,
+.ad--100-empty,
+.mixed-feed {
+    display: none!important;
+}
+.template__content,
+.template--two-column__content--two {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mini__toggled-table__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.standings--datatable {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.standings {
+    width: 50%;
+}
+
+.leaderboard {
+    width: 50%;
+}
