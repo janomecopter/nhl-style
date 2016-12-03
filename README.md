@@ -34,3 +34,7 @@ Instructions
 8. Then go to the top left, add a title and click "save". It should work now!
 
 The page should look like this:
+
+![example stylish](https://github.com/bizzk3t/nhl-style/raw/master/example.png "example stylish")
+
+Good luck! :)
