@@ -43,7 +43,7 @@
 
 
 
-/* FredTuna addition */
+
 /* This next section make the score boxes at the top smaller so less scrolling is necessary */
 
 
@@ -54,31 +54,42 @@
 }
 
 /*Reduce size of game boxes (190px originally) */
-.g5-component--nhl-scores {
+.nhl-scores--horizontal .g5-component--nhl-scores {
     font-size: 1px;
     min-width: 90px;
 }
 
 /* Reduce score text size*/
-.g5-component--nhl-scores .g5-component--nhl-scores__team-score {
-    font-size: 11px;
+.nhl-scores--horizontal .g5-component--nhl-scores .g5-component--nhl-scores__team-score {
+    font-size: 12px;
     width: 7px;
 }
 
 /* Reduce margin between game boxes*/
-.g5-component--nhl-scores .g5-component--nhl-scores__panel {
+.nhl-scores--horizontal .g5-component--nhl-scores .g5-component--nhl-scores__panel {
     padding: 6px 6px 4px;
 }
 
 /* distance the team logos a little bit so it looks better */
-.g5-component--nhl-scores__team {
+.nhl-scores--horizontal .g5-component--nhl-scores__panel  .g5-component--nhl-scores__teams .g5-component--nhl-scores__team {
     margin-bottom: 2px;
 }
 
-/* Make the teams names, game time, game networks and game state text smaller */
-.g5-component--nhl-scores__info-content, .g5-component--nhl-scores__info-decisions-goalie, .g5-component--nhl-scores__info-goal-scorers-item, .g5-component--nhl-scores__info-goal-scorers-item-period-wrap, .g5-component--nhl-scores__info-goal-scorers-item-wrap, .g5-component--nhl-scores__info-label, .g5-component--nhl-scores__info-stat-leader, .g5-component--nhl-scores__status-current-period, .g5-component--nhl-scores__status-current-period-time, .g5-component--nhl-scores__status-game-broadcast, .g5-component--nhl-scores__status-game-time, .g5-component--nhl-scores__status-state-label, .g5-component--nhl-scores__status-viewing, .g5-component--nhl-scores__team-empty-net, .g5-component--nhl-scores__team-power-play, .g5-component--nhl-scores__team-record-losses, .g5-component--nhl-scores__team-record-overtime-losses, .g5-component--nhl-scores__team-record-wins, .g5-component--nhl-scores__team-sog-count, .g5-component--nhl-scores__team-sog-label .g5-component--nhl-scores__team-name, .g5-component--nhl-scores__team-name-abbrev, .g5-component--nhl-scores__team-score, .g5-component--nhl-scores .g5-component--nhl-scores__status-game-broadcast {
+/* Make game time, game networks and game state text smaller */
+.g5-component--nhl-scores__info-content, .g5-component--nhl-scores__info-decisions-goalie, .g5-component--nhl-scores__info-goal-scorers-item, .g5-component--nhl-scores__info-goal-scorers-item-period-wrap, .g5-component--nhl-scores__info-goal-scorers-item-wrap, .g5-component--nhl-scores__info-label, .g5-component--nhl-scores__info-stat-leader, .g5-component--nhl-scores__status-current-period, .g5-component--nhl-scores__status-current-period-time, .g5-component--nhl-scores__status-game-broadcast, .g5-component--nhl-scores__status-game-time, .g5-component--nhl-scores__status-state-label, .g5-component--nhl-scores__status-viewing, .g5-component--nhl-scores__team-empty-net, .g5-component--nhl-scores__team-power-play, .g5-component--nhl-scores__team-record-losses, .g5-component--nhl-scores__team-record-overtime-losses, .g5-component--nhl-scores__team-record-wins, .g5-component--nhl-scores__team-sog-count, .g5-component--nhl-scores__team-sog-label .g5-component--nhl-scores__team-name, .g5-component--nhl-scores__team-score, .g5-component--nhl-scores .g5-component--nhl-scores__status-game-broadcast {
     font-size: 10px;
     text-align: center;
+}
+
+/* Make the teams names text smaller */
+.g5-component--nhl-scores__team-name-abbrev {
+    font-size: 11px;
+    text-align: center;
+}
+
+/* Show the score on the box score even if it's currently in the viewing state */
+.g5-component--nhl-scores--selected .g5-component--nhl-scores__team-score {
+    display: inline!important;
 }
 
 /*order the watch, gamecenter, etc., buttons vertically*/
@@ -109,11 +120,6 @@
 /* Make Watching, Tickets and Gamecenter text smaller so it doesn't clip on the smaller box */
 .g5-component--nhl-scores__button-text-label {
     font-size: 9px;
-}
-
-/* Show the score on the box score even if it's currently in the viewing state */
-.g5-component--nhl-scores--selected .g5-component--nhl-scores__team-score {
-    display: inline!important;
 }
 
 /*make the nhl logo smaller*/
