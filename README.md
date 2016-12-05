@@ -1,10 +1,10 @@
 # nhl-style
 
-I created a few css styles to make nhl.com look a little more appealing to me. All I want to see is the scores, standings and leaderboard so I got rid of everything else.
+I created a few css styles to make nhl.com look a little more appealing to me. I added styling for the tob scorebox bar so that the scoreboxes are about half as wide while still showing all the same information.
 
 Here is what it looks like:
 
-![alt text](https://github.com/bizzk3t/nhl-style/raw/master/screenshot.png "nhl style")
+![alt text](https://github.com/bizzk3t/nhl-style/raw/master/screenshotScoreboxes.png "nhl style")
 
 
 
@@ -23,7 +23,7 @@ Instructions
 
 3. On the left hand side click on the "Write a new style" button.
 
-4. Open this Github project and go to [nhl.css](https://github.com/bizzk3t/nhl-style/raw/master/nhl.css) file and copy the code.
+4. Open this Github project and go to [nhl.css](https://github.com/bizzk3t/nhl-style/raw/master/nhl.css) file or [nhl_scoreboxOnly.css](https://github.com/bizzk3t/nhl-style/raw/master/nhl.css) if you want just the scoreboxes changes and copy the code.
 
 5. Paste the code into the text area.
 
