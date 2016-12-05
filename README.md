@@ -4,7 +4,7 @@ I created a few css styles to make nhl.com look a little more appealing to me. I
 
 Here is what it looks like:
 
-![alt text](https://github.com/FredTuna/nhl-style/raw/master/screenshotScoreboxes.png "nhl style")
+![alt text](https://github.com/FredTuna/nhl-style/raw/master/screenshotScoreboxes.PNG "nhl style")
 
 
 
