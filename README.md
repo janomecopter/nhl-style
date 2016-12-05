@@ -23,7 +23,7 @@ Instructions
 
 3. On the left hand side click on the "Write a new style" button.
 
-4. Open this Github project and go to [nhl.css](https://github.com/bizzk3t/nhl-style/raw/master/nhl.css) file or [nhl_scoreboxOnly.css](https://github.com/FredTuna/nhl-style/raw/master/scoreBoxOnly.css) if you want just the scoreboxes changes and copy the code.
+4. Open this Github project and go to [nhl.css](https://github.com/bizzk3t/nhl-style/raw/master/nhl.css) file or [nhl_scoreboxOnly.css](https://github.com/FredTuna/nhl-style/raw/master/nhl_scoreBoxOnly.css) if you want just the scoreboxes changes and copy the code.
 
 5. Paste the code into the text area.
 
