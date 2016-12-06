@@ -70,19 +70,31 @@
     padding: 12px 6px 4px;
 }
 
-/* Push up the free game text */
-.g5-component--nhl-scores__status-game-message {
-    margin-top: -8px;
+/* Alter alignment of game status tag */
+.g5-component--nhl-scores .g5-component--nhl-scores__status-game-message {
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 /* distance the team logos a little bit so it looks better */
 .nhl-scores--horizontal .g5-component--nhl-scores__panel  .g5-component--nhl-scores__teams .g5-component--nhl-scores__team {
     margin-bottom: 2px;
+    margin-left: 8px;
 }
 
 /* on live games, we need to restrict the width of the team info wrap */
-.g5-component--nhl-scores .g5-component--nhl-scores__game--live .g5-component--nhl-scores__team-info-wrap {
-    width: 65px;
+.g5-component--nhl-scores .g5-component--nhl-scores__game--live {
+    width: 60px;
+}
+.g5-component--nhl-scores__team-info-wrap {
+    max-width: 60px;
+}
+
+
+
+.g5-component--nhl-scores__teams {
+    width: 90px;
 }
 
 /* there isn't really much space for PP or ES to be shown so e make it really small */
