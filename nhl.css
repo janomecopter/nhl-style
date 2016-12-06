@@ -70,9 +70,11 @@
     padding: 12px 6px 4px;
 }
 
-/* Push up the free game text */
-.g5-component--nhl-scores__status-game-message {
-    margin-top: -8px;
+/* Alter alignment of game status tag */
+.g5-component--nhl-scores .g5-component--nhl-scores__status-game-message {
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 /* distance the team logos a little bit so it looks better */
