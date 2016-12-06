@@ -9,7 +9,6 @@
     display: none!important;
 }
 
-
 /* This next section make the score boxes at the top smaller so less scrolling is necessary */
 
 
@@ -39,6 +38,16 @@
 /* distance the team logos a little bit so it looks better */
 .nhl-scores--horizontal .g5-component--nhl-scores__panel  .g5-component--nhl-scores__teams .g5-component--nhl-scores__team {
     margin-bottom: 2px;
+}
+
+/* on live games, we need to restrict the width of the team info wrap */
+.g5-component--nhl-scores .g5-component--nhl-scores__game--live .g5-component--nhl-scores__team-info-wrap {
+    width: 65px;
+}
+
+/* there isn't really much space for PP or ES to be shown so e make it really small */
+.g5-component--nhl-scores .g5-component--nhl-scores__team-empty-net, .g5-component--nhl-scores .g5-component--nhl-scores__team-power-play {
+    font-size: 6px;
 }
 
 /* Make game time, game networks and game state text smaller */
