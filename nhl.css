@@ -90,8 +90,13 @@
     font-size: 6px;
 }
 
+/* Fix misalignment of finished game status*/
+.g5-component--nhl-scores__status, .g5-component--nhl-scores__teams {
+    margin: auto
+}
+
 /* Make game time, game networks and game state text smaller */
-.g5-component--nhl-scores__info-content, .g5-component--nhl-scores__info-decisions-goalie, .g5-component--nhl-scores__info-goal-scorers-item, .g5-component--nhl-scores__info-goal-scorers-item-period-wrap, .g5-component--nhl-scores__info-goal-scorers-item-wrap, .g5-component--nhl-scores__info-label, .g5-component--nhl-scores__info-stat-leader, .g5-component--nhl-scores__status-current-period, .g5-component--nhl-scores__status-current-period-time, .g5-component--nhl-scores__status-game-broadcast, .g5-component--nhl-scores__status-game-time, .g5-component--nhl-scores__status-state-label, .g5-component--nhl-scores__status-viewing, .g5-component--nhl-scores__team-empty-net, .g5-component--nhl-scores__team-power-play, .g5-component--nhl-scores__team-record-losses, .g5-component--nhl-scores__team-record-overtime-losses, .g5-component--nhl-scores__team-record-wins, .g5-component--nhl-scores__team-sog-count, .g5-component--nhl-scores__team-sog-label .g5-component--nhl-scores__team-name, .g5-component--nhl-scores__team-score, .g5-component--nhl-scores .g5-component--nhl-scores__status-game-broadcast {
+.g5-component--nhl-scores__info-content, .g5-component--nhl-scores__info-decisions-goalie, .g5-component--nhl-scores__info-goal-scorers-item, .g5-component--nhl-scores__info-goal-scorers-item-period-wrap, .g5-component--nhl-scores__info-goal-scorers-item-wrap, .g5-component--nhl-scores__info-label, .g5-component--nhl-scores__info-stat-leader, .g5-component--nhl-scores__status-current-period, .g5-component--nhl-scores__status-current-period-time, .g5-component--nhl-scores__status-game-broadcast, .g5-component--nhl-scores__status-game-time, .g5-component--nhl-scores__status-state-label, .g5-component--nhl-scores__status-viewing, .g5-component--nhl-scores__team-empty-net, .g5-component--nhl-scores__team-power-play, .g5-component--nhl-scores__team-record-losses, .g5-component--nhl-scores__team-record-overtime-losses, .g5-component--nhl-scores__team-record-wins, .g5-component--nhl-scores__team-sog-count, .g5-component--nhl-scores__team-sog-label .g5-component--nhl-scores__team-name, .g5-component--nhl-scores__team-score, .g5-component--nhl-scores .g5-component--nhl-scores__status-game-broadcast, .g5-component--nhl-scores__status {
     font-size: 10px;
     text-align: center;
 }
